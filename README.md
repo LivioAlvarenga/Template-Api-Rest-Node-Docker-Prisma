@@ -29,7 +29,8 @@
 <p>
 
 <p align="center">
-  <a href= ""><img alt="deploy badge" height=40 src="https://raw.githubusercontent.com/LivioAlvarenga/LivioAlvarenga/16529b41db0c4089f62eccbe301f46b3d8f157cf/files/render-badge.svg"></a>
+  <a href= ""><img alt="deploy badge Render" height=40 src="https://raw.githubusercontent.com/LivioAlvarenga/LivioAlvarenga/16529b41db0c4089f62eccbe301f46b3d8f157cf/files/render-badge.svg"></a>
+  <a href= ""><img alt="deploy badge Heroku" height=40 src="https://img.shields.io/static/v1?logoWidth=15&logoColor=430098&logo=heroku&label=Deploy&message=Heroku&color=430098"></a>
 <p>
 
 &nbsp;
