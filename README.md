@@ -87,6 +87,18 @@ As seguintes ferramentas foram usadas na construção do projeto
 
 &nbsp;
 
+### Configurando **VsCode**
+
+> O arquivo **_JsTs.code-profile_** é um profile com nome JS(Javascript/NodeJs) e TS(Typescript) contém as configurações do VsCode para o projeto, como extensões, configurações de formatação e configurações de lint.
+
+Para importar o profile basta clicar Ctrl+Shift+P e digitar **_import profile_**. Clicar e selecionar o arquivo **_JsTs.code-profile_**.
+
+Este profile está configurado para projetos NodeJs e Typescript, fique a vontade para alterar as configurações para o seu projeto.
+
+---
+
+&nbsp;
+
 ### Criando **projeto NodeJs**
 
 ```bash
