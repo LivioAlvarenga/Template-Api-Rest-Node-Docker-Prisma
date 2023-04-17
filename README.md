@@ -237,6 +237,17 @@ generator erd {
 },
 ```
 
+_Create src/lib/prisma.ts file with all Prisma config_
+
+```typescript
+import { env } from '@/env'
+import { PrismaClient } from '@prisma/client'
+
+export const prisma = new PrismaClient({
+  log: env.NODE_ENV === 'dev' ? ['query'] : [],
+}) // Create prisma client with log in development mode
+```
+
 **`Environment variables to databases (postgres, mysql, sqlite)`**
 
 &nbsp;
