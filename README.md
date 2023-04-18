@@ -16,7 +16,7 @@
 
 ## 💻 Sobre o projeto
 
-🚀 Template API REST em Nodejs com Fastify, TypeScript, Zod, PrismaJs, Docker, Eslint
+🚀 Template API REST em Nodejs com Fastify, TypeScript, Zod, PrismaJs, Docker, Vitest, Eslint
 
 &nbsp;
 
@@ -45,7 +45,7 @@
 | :placard: Vitrine.Dev |                                                                                                                  |
 | --------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | :sparkles: Nome       | **Template API REST em Nodejs com Fastify**                                                                |
-| :label: Tecnologias   | NodeJs, TypeScript, JavaScript, .ENV, Fastify, PrismaJs, Zod, Database(MySql, PostgreSQL, SqLite), Docker, EsLint, Insomnia |                                                                 |
+| :label: Tecnologias   | NodeJs, TypeScript, JavaScript, .ENV, Fastify, PrismaJs, Zod, Database(MySql, PostgreSQL, SqLite), Docker, Vitest, EsLint, Insomnia |                                                                 |
 
 ---
 
@@ -73,7 +73,7 @@ As seguintes ferramentas foram usadas na construção do projeto
   <a href= "https://www.mysql.com/"><img alt="MySQL badge" src="https://raw.githubusercontent.com/LivioAlvarenga/LivioAlvarenga/d7f6873e652db237a89583607eb70757ebaaa6d1/files/mysql-badge.svg"></a>
   <a href= "https://vitest.dev/"><img alt="Vitest Badge" src="https://raw.githubusercontent.com/LivioAlvarenga/LivioAlvarenga/28993b470420f2c44db532b4e6e662e60a186954/files/vitest-badge.svg"></a>
   <a href= "https://insomnia.rest/" target="_blank" rel="noopener noreferrer"><img alt="Insomnia badge" src="https://raw.githubusercontent.com/LivioAlvarenga/LivioAlvarenga/2467074c4c912dd04b12bcee1076cb5ca7ba9eaf/files/insomnia-badge.svg"></a>
-  <a href= "https://swagger.io/"><img alt="swagger badge" src="https://raw.githubusercontent.com/LivioAlvarenga/LivioAlvarenga/746a4dde7970d133fb9d6a1262f40c4f4d6e6573/files/swagger-badge.svg"></a>
+  <a href= "https://swagger.io/"><img alt="swagger badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=85ea2d&logo=Swagger&label=API Documentation&message=Swagger&color=85ea2d"></a>
   <a href= "https://code.visualstudio.com/download" target="_blank" rel="noopener noreferrer"><img alt="vscode download" src="https://raw.githubusercontent.com/LivioAlvarenga/LivioAlvarenga/2467074c4c912dd04b12bcee1076cb5ca7ba9eaf/files/vsCode-badge.svg"></a>
   <a href= "https://github.com/prettier/prettier" target="_blank" rel="noopener noreferrer"><img alt="code formatter prettier" src="https://raw.githubusercontent.com/LivioAlvarenga/LivioAlvarenga/2467074c4c912dd04b12bcee1076cb5ca7ba9eaf/files/prettier-badge.svg"></a>
   <a href= "https://eslint.org/" target="_blank" rel="noopener noreferrer"><img alt="code standardization eslint" src="https://raw.githubusercontent.com/LivioAlvarenga/LivioAlvarenga/59575ed19b13121cd113cfc66a71f18dea210c79/files/eslint-badge.svg"></a>
