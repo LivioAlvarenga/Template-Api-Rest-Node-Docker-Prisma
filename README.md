@@ -170,6 +170,36 @@ npx tsc --init # Create tsconfig.json
 ### **Fastify** architecture
 ```bash
 npm install fastify # Install Fastify
+npm install @fastify/jwt # Install @fastify/jwt to use JWT in Fastify
+```
+
+_Create **`fastify-jwt.d.ts`** file in @types folder with all types of JWT in Fastify_
+
+```typescript
+import '@fastify/jwt'
+
+declare module '@fastify/jwt' {
+  export interface FastifyJWT {
+    user: {
+      sub: string
+    }
+  }
+}
+```
+
+_Create **`JWT_SECRET`** in .env and .env.example_
+
+```.env
+# Auth token in development mode
+JWT_SECRET="secret"
+```
+
+_Create script **`fastifyJwt`** in app.ts to use JWT in Fastify_
+
+```typescript
+app.register(fastifyJwt, {
+  secret: env.JWT_SECRET,
+})
 ```
 
 &nbsp;
